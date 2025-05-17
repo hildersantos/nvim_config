@@ -13,6 +13,9 @@ map("n", "<leader>x", "<cmd>bd<CR>", { desc = "Close buffer" })
 map("n", "<C-s>", "<cmd>w<CR>", { desc = "Save file" })
 map("n", "<ESC>", "<cmd>noh<CR>", { desc = "Clear highlights" })
 
+-- Telescope Projects mapping
+map("n", "<leader>pp", "<cmd>Telescope project<CR>", { desc = "Find projects" })
+
 -- Elixir mappings
 map("n", "<space>fp", "<cmd>ElixirFromPipe<cr>", { desc = "Convert from pipe operator" })
 map("n", "<space>tp", "<cmd>ElixirToPipe<cr>", { desc = "Convert to pipe operator" })
